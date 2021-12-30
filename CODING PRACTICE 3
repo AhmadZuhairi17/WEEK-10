@@ -1,0 +1,25 @@
+package myPractice;
+
+import java.util.Scanner;
+
+class ArrayPractice3 {
+
+	public static void main(String[] args) {
+		Scanner in=new Scanner(System.in);
+		int arraySize;
+		int sum=0;
+		int price;
+		
+		System.out.print("Enter the size of the array: "); 
+		arraySize = in.nextInt();
+		int[] list = new int[arraySize]; 
+		
+        for(int i=0; i<list.length; i++) {
+		System.out.print("Enter the good's price :");
+        price=in.nextInt();
+        sum=sum+price;}
+        
+        System.out.print("The total amount is RM"+sum);
+	}
+
+}
