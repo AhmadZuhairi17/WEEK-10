@@ -1,0 +1,29 @@
+Enter five integer numbers : 
+1
+2
+3
+4
+5
+Items are :  index 0 = 1
+Items are :  index 1 = 2
+Items are :  index 2 = 3
+Items are :  index 3 = 4
+Items are :  index 4 = 5
+
+Sum of the five integers numbers is 15
+Average is 3.0
+
+Items are :  index 0 = 1
+Items are :  index 1 = 12
+Items are :  index 2 = 5
+Items are :  index 3 = 9
+Items are :  index 4 = 7
+Enter five customer's name
+ZUHAIRI
+ALI
+NABIL
+AFIQ
+AZIB
+Customer's name reverse order are: 
+AZIB AFIQ NABIL ALI ZUHAIRI
+Enter five integers one number per line
