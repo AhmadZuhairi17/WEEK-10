@@ -1,0 +1,21 @@
+package myPractice;
+
+import java.util.Scanner;
+
+class ArrayOfStringObjects {
+
+	public static void main(String[] args) {
+		String[] nameList = {"Darwin", "Alex", "Rico", "Stephen", "De Paula"};
+		// OR String[] nameList = new String[5];
+ 		
+		Scanner input = new Scanner(System.in);
+		    
+		System.out.println("Enter name of five participants : ");
+		 
+		for(int i = 0; i < nameList.length; i++) {
+			System.out.println("Participants name are : " + "person " + (i+1) + " = " + nameList[i]);}
+
+	
+
+    }  
+}
